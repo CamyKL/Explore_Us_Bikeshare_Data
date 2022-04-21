@@ -182,7 +182,8 @@ def user_stats(df):
         
         
 def  user_stats_gender(df):
-    """Displays statistics of the gender of bikeshare users."""
+    """Displays statistics of the gender of bikeshare users.""" 
+    #To show the total time taken to calculate Gender Stats
     print('\nCalculating Gender Stats...\n')
     start_time = time.time()
 
