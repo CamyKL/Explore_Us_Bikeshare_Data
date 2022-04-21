@@ -31,7 +31,7 @@ def get_filters():
                 print ("Oops that\'s not a valid city!")
     if city == "chicago":
             print ("Looking around Chicago!")
-    elif city == "newyork":
+    elif city == "new york":
             print ("Looking around New York!")
     else:
            print("Looking around Washington!")
