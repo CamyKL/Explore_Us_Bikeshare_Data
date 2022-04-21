@@ -26,9 +26,10 @@ def get_filters():
     city = input('Which city are we exploring today, Chicago, New York or Washington? \n> ').lower()
     while city not in ['chicago', 'new york city', 'washington']:
             if city in CITIES:
-                break
+                break  #To account for invalid inputs
             else: 
                 print ("Oops that\'s not a valid city!")
+    
     if city == "chicago":
             print ("Looking around Chicago!")
     elif city == "new york":
