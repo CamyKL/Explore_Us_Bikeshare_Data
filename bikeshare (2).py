@@ -26,13 +26,12 @@ def get_filters():
     city = input('Which city are we exploring today, Chicago, New York or Washington? \n> ').lower()
     while city not in ['chicago', 'new york city', 'washington']:
             if city in CITIES:
-                break  #To account for invalid inputs
+                break
             else: 
                 print ("Oops that\'s not a valid city!")
-    
     if city == "chicago":
             print ("Looking around Chicago!")
-    elif city == "new york":
+    elif city == "newyork":
             print ("Looking around New York!")
     else:
            print("Looking around Washington!")
@@ -183,8 +182,7 @@ def user_stats(df):
         
         
 def  user_stats_gender(df):
-    """Displays statistics of the gender of bikeshare users.""" 
-    #To show the total time taken to calculate Gender Stats
+    """Displays statistics of the gender of bikeshare users."""
     print('\nCalculating Gender Stats...\n')
     start_time = time.time()
 
